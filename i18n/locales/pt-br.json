@@ -1,0 +1,122 @@
+{
+  "translation": {
+    "head": {
+      "title": "Caio Services - IPTV Sem Quedas e Sem Travamentos",
+      "description": "IPTV e P2P com qualidade superior, venha conhecer as nossas ofertas."
+    },
+    "header": {
+      "nav": {
+        "option-1": "Como funciona?",
+        "option-2": "Nossos planos",
+        "option-3": "Perguntas frequentes",
+        "option-4": "Seja um revendedor",
+        "option-5": "Central do Assinante"
+      }
+    },
+    "hero-section": {
+      "title": "+ de 100 mil conteúdos",
+      "subtitle": "incluindo canais, filmes e séries em alta qualidade de imagem",
+      "button": "Testar grátis agora",
+      "warning": "*O período de teste grátis tem duração de 4 horas, sem a exigência de nenhum dado financeiro por parte do usuário."
+    },
+    "description": {
+      "title": "Diga adeus ao tédio em qualquer lugar!",
+      "description": "Assista em qualquer lugar mais de 100 mil conteúdos. Em nosso aplicativo você pode assistir a filmes, séries, desenhos, documentários e muito mais."
+    },
+    "how-it-works": {
+      "title": "O que é e como funciona?",
+      "description-1": "Utilizamos um método de transmissão chamado IPTV. O IPTV ou TVIP é um método de transmissão de sinais televisivo através de redes IP. Diferentemente dos sistemas tradicionais televisivos, o IPTV oferece a capacidade de transmitir a mídia de origem continuamente. Embora o IPTV use o protocolo da Internet, não está limitada à televisão transmitida pela internet.",
+      "description-2": "Também trabalhamos com o P2P, na qual utiliza uma arquitetura diferente da IPTV, sendo indicada para conexões com a internet mais lenta.",
+      "description-3": "Veja como é simples:",
+      "step-by-step-1": "1. Escolha e assine um de nossos planos disponíveis de IPTV ou P2P.",
+      "step-by-step-2": "2. Receba as informações do seu serviço e as instruções de como instalar e utilizar.",
+      "step-by-step-3": "3. Comece a desfrutar de todo o nosso conteúdo, sem restrições!",
+      "step-by-step-img-alt-1": "Como funciona - passo 1",
+      "step-by-step-img-alt-2": "Como funciona - passo 2",
+      "step-by-step-img-alt-3": "Como funciona - passo 3"
+
+    },
+    "pricing": {
+      "title": "Nossos Planos",
+      "description": "Nossos planos foram projetados para atender e possibilitar a todos de desfrutar essa revolução.",
+      "description-2": "Fazemos questão de prezar pela sofisticação em oferecer preços acessíveis com uma qualidade superior em todos os nossos serviços.",
+      "option-1": "Planos de IPTV",
+      "option-2": "Planos de P2P",
+      "plans": {
+        "title-1": "Plano Mensal",
+        "title-2": "Plano Semestral",
+        "title-3": "Plano Anual",
+        "plan-1": {
+          "price-1": "R$ 24,90",
+          "price-2": "R$ 139,90",
+          "price-3": "R$ 199,90"
+        },
+        "plan-2": {
+          "price-1": "R$ 34,90",
+          "price-2": "R$ 199,90",
+          "price-3": "R$ 299,90"
+        },
+        "default-features": {
+          "feature-1": "Desconto incluso",
+          "feature-2": "Qualidade 4K/FHD/HD/SD",
+          "feature-3": "Guia de programação [EPG]",
+          "feature-4": "Assistir de onde quiser",
+          "feature-5": "Rádios online",
+          "feature-6": "Cortesia de filmes e séries",
+          "feature-7": "Canais e serviços 24 horas"
+        },
+        "custom-features": {
+          "pricing-1": {
+            "feature-1": "1 tela simultânea"
+          },
+          "pricing-3": {
+            "feature-1": "2 telas simultâneas"
+          }
+        },
+        "button": "Assinar Agora",
+        "recommended": "Recomendado"
+      }
+    },
+    "pricing-2": {
+      "title": "Seja um revendedor",
+      "description": "Sendo o nosso revendedor, você só terá vantagens! Você possuirá um painel totalmente exclusivo e de fácil uso. Você poderá adqurir créditos, na qual cada crédito é equivalente a 1 mês de IPTV e também gerenciar os usuários de IPTV na qual você possuir.",
+      "link-text": "Clique aqui para saber mais.",
+      "description-2": "Algumas vantagens:",
+      "features": {
+        "feature-1": "Painel de Controle",
+        "feature-2": "10 créditos já inclusos",
+        "feature-3": "Liberação de testes ilimitados",
+        "feature-4": "Não precisa ter CNPJ",
+        "feature-5": "Vídeos tutoriais de como utilizar",
+        "feature-6": "Sem mensalidade, compre o crédito apenas 1 vez!"
+      },
+      "button": "Assinar Agora"
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "questions": {
+        "question-1": "O que é IPTV e como funciona?",
+        "question-2": "Posso testar antes de assinar?",
+        "question-3": "Como funciona o pagamento?",
+        "question-4": "Em quais dispositivos em posso assistir?",
+        "question-5": "Como eu faço para configurar?"
+      },
+      "answers": {
+        "answer-1": "É um novo método de transmissão de sinais televisivos. Assim como o VOIP (Voz sobre IP), usa o protocolo IP Internet Protocol como meio de transporte do conteúdo.",
+        "answer-2": "Sim! Liberamos um teste gratuito de até 4 horas, para você comprovar a nossa qualidade.",
+        "answer-3": "Após realizar o nosso teste gratuito, você poderá escolher a forma de pagamento que desejar. Aceitamos pagamentos via pix e cartão de crédito.",
+        "answer-4": "Em todos os dispositivos com acesso a internet. Caso a sua TV for de tubo, será necessário o uso do aparelho da TVBOX!",
+        "answer-5": "Não se preocupe, nossa equipe irá lhe enviar todo o passo a passo de como configurar, além de prestar todo o apoio necessário durante o processo."
+      }
+    },
+    "contact": {
+      "title": "Dúvidas? Entre em contato com a gente pelo WhatsApp"
+    },
+    "footer": {
+      "copyright": {
+        "name": "Caio Services",
+        "all-rights-reserved": "Todos os direitos reservados"
+      }
+    }
+  }
+}
