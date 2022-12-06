@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'OpenSans';
-  src: url('../public/fonts/OpenSans-Regular.ttf');
+  src: url('/public/fonts/OpenSans-Regular.ttf');
 }
 
 @media (max-width: 640px) {

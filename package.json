@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-css": "npx tailwindcss -i ./styles/globals.css -o ./public/css/main.css --minify"
   },
   "dependencies": {
     "@material-tailwind/react": "^1.2.4",
