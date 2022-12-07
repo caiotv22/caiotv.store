@@ -19,7 +19,7 @@ export default function HeroSection() {
               </button>
             </Link>
             <br />
-            <small className='block mt-3 text-xs px-8'>{t('hero-section.warning')}</small>
+            <small className='block mt-3 text-xs px-8 !opacity-40'>{t('hero-section.warning')}</small>
           </div>
         </div>
       </div>
