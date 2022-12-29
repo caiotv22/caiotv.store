@@ -16,15 +16,6 @@ export default function Home() {
   return (
     <>
       <Head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11039411653"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-11039411653');
-</script>
         <title>{t('head.title')}</title>
         <meta name='description' content={t('head.description')} />
         <link rel='icon' href='img/favicon.ico' />
