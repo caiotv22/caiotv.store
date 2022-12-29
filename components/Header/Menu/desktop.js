@@ -13,18 +13,18 @@ export default function DesktopMenu() {
           <ul className='flex px-4 flex-grow place-items-center'>
             <li className='px-2 cursor-pointer'>
               <Link to='how-it-works' smooth={true}>
-                {t('header.nav.option-1')}
+                {t('header.nav.option_1')}
               </Link>
             </li>
             <li className='px-2 cursor-pointer'>
               <Link to='pricing' smooth={true}>
-                {t('header.nav.option-2')}
+                {t('header.nav.option_2')}
               </Link>
             </li>
             <li className='px-2 cursor-pointer'>
               {' '}
               <Link to='faq' smooth={true}>
-                {t('header.nav.option-3')}
+                {t('header.nav.option_3')}
               </Link>
             </li>
           </ul>
@@ -33,13 +33,13 @@ export default function DesktopMenu() {
               <li className='px-2 cursor-pointer'>
                 {' '}
                 <Link to='pricing-2' smooth={true}>
-                  {t('header.nav.option-4')}
+                  {t('header.nav.option_4')}
                 </Link>
               </li>
               <li className='px-2 cursor-pointer'>
                 <Link2 href='https://central.caioservices.tech/index.php?rp=/login'>
                   <button type='button' className='bg-defaultBlue rounded-md py-1 px-5'>
-                    {t('header.nav.option-5')}
+                    {t('header.nav.option_5')}
                   </button>
                 </Link2>
               </li>

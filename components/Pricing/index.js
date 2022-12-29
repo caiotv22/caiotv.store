@@ -14,7 +14,7 @@ export default function Pricing() {
           <p className='mt-3'>{t('pricing.description')}</p>
           <p className='w-4/5'>{t('pricing.description-2')}</p>
           <div className='flex mt-10'>
-            <span>{t('pricing.option-1')}</span>
+            <span>{t('pricing.option_1')}</span>
             <div className='relative inline-block w-28 mr-2 align-middle select-none mx-4 mr-4 -top-2'>
               <input
                 type='checkbox'
@@ -29,7 +29,7 @@ export default function Pricing() {
                 className='toggle-label block overflow-hidden h-10 rounded-full bg-defaultCyan cursor-pointer'
               />
             </div>
-            <span>{t('pricing.option-2')}</span>
+            <span>{t('pricing.option_2')}</span>
           </div>
           <PriceList inputChecked={inputChecked} />
         </div>

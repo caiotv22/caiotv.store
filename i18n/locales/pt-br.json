@@ -6,11 +6,11 @@
     },
     "header": {
       "nav": {
-        "option-1": "Como funciona?",
-        "option-2": "Nossos planos",
-        "option-3": "Perguntas frequentes",
-        "option-4": "Seja um revendedor",
-        "option-5": "Central do Assinante"
+        "option_1": "Como funciona?",
+        "option_2": "Nossos planos",
+        "option_3": "Perguntas frequentes",
+        "option_4": "Seja um revendedor",
+        "option_5": "Central do Assinante"
       }
     },
     "hero-section": {
@@ -40,8 +40,8 @@
       "title": "Nossos Planos",
       "description": "Nossos planos foram projetados para atender e possibilitar a todos de desfrutar essa revolução.",
       "description-2": "Fazemos questão de prezar pela sofisticação em oferecer preços acessíveis com uma qualidade superior em todos os nossos serviços.",
-      "option-1": "Planos de IPTV",
-      "option-2": "Planos de P2P",
+      "option_1": "Planos de IPTV",
+      "option_2": "Planos de P2P",
       "plans": {
         "title-1": "Plano Mensal",
         "title-2": "Plano Semestral",
@@ -116,6 +116,11 @@
       "copyright": {
         "name": "Caio Services",
         "all-rights-reserved": "Todos os direitos reservados"
+      }
+    },
+    "dashboard": {
+      "head": {
+        "title": "Caio Services - Dashboard"
       }
     }
   }
