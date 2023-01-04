@@ -58,38 +58,38 @@
           "price-3": "R$ 299,90"
         },
         "default-features": {
-          "feature-1": "Desconto incluso",
-          "feature-2": "Qualidade 4K/FHD/HD/SD",
-          "feature-3": "Guia de programação [EPG]",
-          "feature-4": "Assistir de onde quiser",
-          "feature-5": "Rádios online",
-          "feature-6": "Cortesia de filmes e séries",
-          "feature-7": "Canais e serviços 24 horas"
+          "feature_1": "Desconto incluso",
+          "feature_2": "Qualidade 4K/FHD/HD/SD",
+          "feature_3": "Guia de programação [EPG]",
+          "feature_4": "Assistir de onde quiser",
+          "feature_5": "Rádios online",
+          "feature_6": "Cortesia de filmes e séries",
+          "feature_7": "Canais e serviços 24 horas"
         },
         "custom-features": {
           "pricing-1": {
-            "feature-1": "1 tela simultânea"
+            "feature_1": "1 tela simultânea"
           },
           "pricing-3": {
-            "feature-1": "2 telas simultâneas"
+            "feature_1": "2 telas simultâneas"
           }
         },
         "button": "Assinar Agora",
         "recommended": "Recomendado"
       }
     },
-    "pricing-2": {
+    "pricing_2": {
       "title": "Seja um revendedor",
       "description": "Sendo o nosso revendedor, você só terá vantagens! Você possuirá um painel totalmente exclusivo e de fácil uso. Você poderá adqurir créditos, na qual cada crédito é equivalente a 1 mês de IPTV e também gerenciar os usuários de IPTV na qual você possuir.",
       "link-text": "Clique aqui para saber mais.",
       "description-2": "Algumas vantagens:",
       "features": {
-        "feature-1": "Painel de Controle",
-        "feature-2": "10 créditos já inclusos",
-        "feature-3": "Liberação de testes ilimitados",
-        "feature-4": "Não precisa ter CNPJ",
-        "feature-5": "Vídeos tutoriais de como utilizar",
-        "feature-6": "Sem mensalidade, compre o crédito apenas 1 vez!"
+        "feature_1": "Painel de Controle",
+        "feature_2": "10 créditos já inclusos",
+        "feature_3": "Liberação de testes ilimitados",
+        "feature_4": "Não precisa ter CNPJ",
+        "feature_5": "Vídeos tutoriais de como utilizar",
+        "feature_6": "Sem mensalidade, compre o crédito apenas 1 vez!"
       },
       "button": "Assinar Agora"
     },
