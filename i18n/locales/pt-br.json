@@ -115,12 +115,11 @@
     "contact": {
       "title": "Dúvidas? Entre em contato com a gente pelo WhatsApp",
       "number_whatsapp": "11 94934-2573",
-      "number_whatsapp_link": "https://wa.me/message/3KMEBBKUNJ4PF1"
+      "number_whatsapp_link": "https://wa.me/message/3KMEBBKU"
     },
     "footer": {
       "copyright": {
-        "name": "Caio Services",
-        "all-rights-reserved": "Todos os direitos reservados"
+        "title": "Caio Services"
       }
     },
     "dashboard": {
