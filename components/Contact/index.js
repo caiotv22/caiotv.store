@@ -9,9 +9,9 @@ export default function Contact() {
       <div className='default-container'>
         <div className='text-center flex flex-col items-center py-6'>
           <h1 className='text-base'>{t('contact.title')}</h1>
-          <Link href='https://wa.me/message/3KMEBBKUNJ4PF1' target='_blank'>
+          <Link href={t('contact.number_whatsapp_link')} target='_blank'>
             <button type='button' className='bg-defaultGreen rounded-md py-3 px-12 mt-4'>
-              <BsWhatsapp className='inline relative -top-0.5' /> 11 94934-2573
+              <BsWhatsapp className='inline relative -top-0.5' /> {t('contact.number_whatsapp')}
             </button>
           </Link>
         </div>

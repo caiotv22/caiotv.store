@@ -113,7 +113,9 @@
       }
     },
     "contact": {
-      "title": "Dúvidas? Entre em contato com a gente pelo WhatsApp"
+      "title": "Dúvidas? Entre em contato com a gente pelo WhatsApp",
+      "number_whatsapp": "11 94934-2573",
+      "number_whatsapp_link": "https://wa.me/message/3KMEBBKUNJ4PF1"
     },
     "footer": {
       "copyright": {
