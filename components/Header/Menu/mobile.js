@@ -48,7 +48,7 @@ export default function MobileMenu() {
             </Link>
           </li>
           <li className='px-2 cursor-pointer'>
-            <Link2 href='https://central.caioservices.tech/index.php?rp=/login'>
+            <Link2 href={t('header.nav.button_link_option_5')}>
               <button type='button' className='bg-defaultBlue rounded-md py-1 px-5 mt-8'>
                 {t('header.nav.option_5')}
               </button>
