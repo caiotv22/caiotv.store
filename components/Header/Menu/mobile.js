@@ -43,7 +43,7 @@ export default function MobileMenu() {
           </li>
           <li className='px-2 cursor-pointer'>
             {' '}
-            <Link to='pricing-2' smooth={true} onClick={() => setOpenMenu(!openMenu)}>
+            <Link to='pricing_2' smooth={true} onClick={() => setOpenMenu(!openMenu)}>
               {t('header.nav.option_4')}
             </Link>
           </li>

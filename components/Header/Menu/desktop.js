@@ -32,7 +32,7 @@ export default function DesktopMenu() {
             <ul className='flex px-2 flex-grow place-items-center'>
               <li className='px-2 cursor-pointer'>
                 {' '}
-                <Link to='pricing-2' smooth={true}>
+                <Link to='pricing_2' smooth={true}>
                   {t('header.nav.option_4')}
                 </Link>
               </li>
