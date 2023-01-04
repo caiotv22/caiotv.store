@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/services/*": ["services/*"],
+      "@/components/*": ["components/*"],
+      "@/i18n/*": ["i18n/*"],
+      "@/dashboard/components/*": ["pages/dashboard/Components/*"],
+      "@/global/providers*": ["global/providers/index.js"]
+    }
+  }
+}
