@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@material-tailwind/react": "^1.2.4",
+    "axios": "^1.2.1",
+    "base-64": "^1.0.0",
     "eslint-config-next": "13.0.4",
     "eslint-plugin-prettier": "^4.2.1",
     "i18next": "^22.0.6",
@@ -20,7 +22,8 @@
     "react-i18next": "^12.0.0",
     "react-icons": "^4.6.0",
     "react-scroll": "^1.8.8",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "utf8": "^3.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
