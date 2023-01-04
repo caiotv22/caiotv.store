@@ -3,7 +3,7 @@ var base64 = require('base-64');
 var utf8 = require('utf8');
 
 const user = 'caiotv22/caiotv.store';
-const token = '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';
+const token = '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';
 
 export async function getGitHubInfo(sha) {
   const config = {
