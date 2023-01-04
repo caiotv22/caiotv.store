@@ -18,8 +18,8 @@ module.exports = {
         sans: ['OpenSans', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-section-background': "url('/img/hero-section-background.png')",
-        'hero-section-mobile-background': "url('/img/hero-section-mobile-background.png')",
+        'hero_section-background': "url('/img/hero_section_background.png')",
+        'hero_section-mobile-background': "url('/img/hero_section-mobile-background.png')",
         'blue-light-background': "url('/img/blue-light-background.png')",
         'pink-light-background': "url('/img/pink-light-background.png')",
         'green-light-background': "url('/img/green-light-background.png')",

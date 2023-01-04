@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Header from './MenuOptions/Header';
 import Banner from './MenuOptions/banner';
 import Plans from './MenuOptions/plans';
-import Plans2 from './MenuOptions/plans2';
+import Plans2 from './MenuOptions/Plans2';
 import Contact from './MenuOptions/contact';
 import Footer from './MenuOptions/footer';
 import { getGitHubInfo } from '@/services/api';
@@ -13,7 +13,7 @@ import { useGitHubInfo } from '@/global/providers';
 
 export default function DashBoard() {
   const { t } = useTranslation();
-  const [open, setOpen] = useState('header');
+  const [open, setOpen] = useState('footer');
   const { gitHubInfo, setGitHubInfo } = useGitHubInfo();
   const handleOpen = (value) => setOpen(value);
 

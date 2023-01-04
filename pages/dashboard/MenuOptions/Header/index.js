@@ -6,13 +6,13 @@ import Input from '@/dashboard/components/input';
 import SubmitButton from '@/dashboard/components/submitButton';
 
 export default function Header({ data }) {
-  const dataToObj = JSON.parse(data);
   const [getInputMenu1, setGetInputMenu1] = useState(null);
   const [getInputMenu2, setGetInputMenu2] = useState(null);
   const [getInputMenu3, setGetInputMenu3] = useState(null);
   const [getInputMenu4, setGetInputMenu4] = useState(null);
   const [getInputMenu5, setGetInputMenu5] = useState(null);
   const [getInputLinkOption5, setGetInputLinkOption5] = useState(null);
+  const dataToObj = JSON.parse(data);
 
   async function handleSubmit(e) {
     e.preventDefault();

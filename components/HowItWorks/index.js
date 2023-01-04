@@ -9,7 +9,7 @@ export default function HowItWorks() {
         <div className='w-full md:w-11/12 flex items-center md:items-start flex-col'>
           <h1 className='text-3xl'>{t('how-it-works.title')}</h1>
           <p className='mt-6'>{t('how-it-works.description-1')}</p>
-          <p className='mt-6'>{t('how-it-works.description-2')}</p>
+          <p className='mt-6'>{t('how-it-works.description_2')}</p>
           <p className='mt-6'>{t('how-it-works.description-3')}</p>
         </div>
         <div className='w-full flex justify-center flex-col md:flex-row mt-8 md:mt-4 md:space-x-28 space-y-12 md:space-y-0 place-items-center'>
