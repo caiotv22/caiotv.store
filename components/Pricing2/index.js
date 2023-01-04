@@ -22,7 +22,7 @@ export default function Pricing2() {
         <div className='min-w-full mt-8'>
           <div className='flex text-base md:flex-row flex-col flex-col-reverse'>
             <div className='flex flex-grow flex-col md:place-items-start place-items-center'>
-              <h2>{t('pricing_2.description-2')}</h2>
+              <h2>{t('pricing_2.description_2')}</h2>
               <ul className='md:space-y-2 mt-6'>
                 <li className='flex align-items: center;'>
                   <AiOutlineCheckCircle style={defaultCheckedIcon} />{' '}
@@ -49,9 +49,9 @@ export default function Pricing2() {
                   <span className='relative -top-0.5 text-base ml-1'>{t('pricing_2.features.feature_6')}</span>
                 </li>
               </ul>
-              <Link href='https://central.caioservices.tech/cart.php?a=add&pid=7'>
+              <Link href={t('pricing_2.button_link')}>
                 <button type='button' className='bg-defaultBlue w-64 mt-6 rounded-md py-3 px-5 mb-6'>
-                  {t('pricing.plans.button')}
+                  {t('pricing_2.button')}
                 </button>
               </Link>
             </div>
