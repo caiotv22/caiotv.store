@@ -48,14 +48,14 @@
         "title_2": "Plano Semestral",
         "title_3": "Plano Anual",
         "plan_1": {
-          "price-1": "R$ 24,90",
-          "price-2": "R$ 139,90",
-          "price-3": "R$ 199,90"
+          "price_1": "R$ 24,90",
+          "price_2": "R$ 139,90",
+          "price_3": "R$ 199,90"
         },
         "plan_2": {
-          "price-1": "R$ 34,90",
-          "price-2": "R$ 199,90",
-          "price-3": "R$ 299,90"
+          "price_1": "R$ 34,90",
+          "price_2": "R$ 199,90",
+          "price_3": "R$ 299,90"
         },
         "default_features": {
           "feature_1": "Desconto incluso",
