@@ -54,8 +54,8 @@
         },
         "plan_2": {
           "price_1": "R$ 34,90",
-          "price_2": "R$ 34,90",
-          "price_3": "R$ 34,90"
+          "price_2": "R$ 199,90",
+          "price_3": "R$ 299,90"
         },
         "default_features": {
           "feature_1": "Desconto incluso",
@@ -74,7 +74,8 @@
             "feature_1": "2 telas simultâneas"
           }
         },
-        "button": "Assinar Agora"
+        "button": "Assinar Agora",
+        "recommended": "Recomendado"
       }
     },
     "pricing_2": {
