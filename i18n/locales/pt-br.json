@@ -54,16 +54,28 @@
         },
         "plan_2": {
           "price_1": "R$ 34,90",
-          "price_2": "R$ 34,90",
-          "price_3": "R$ 34,90"
+          "price_2": "R$ 199,90",
+          "price_3": "R$ 299,90"
         },
         "default_features": {
-          "feature_1": "Desconto incluso"
-        }
-      },
-      "custom_features": {
-        "pricing_1": {},
-        "pricing_3": {}
+          "feature_1": "Desconto incluso",
+          "feature_2": "Qualidade 4K/FHD/HD/SD",
+          "feature_3": "Guia de programação [EPG]",
+          "feature_4": "Assistir de onde quiser",
+          "feature_5": "Rádios online",
+          "feature_6": "Cortesia de filmes e séries",
+          "feature_7": "Canais e serviços 24 horas"
+        },
+        "custom_features": {
+          "pricing_1": {
+            "feature_1": "1 tela simultânea"
+          },
+          "pricing_3": {
+            "feature_1": "2 telas simultâneas"
+          }
+        },
+        "button": "Assinar Agora",
+        "recommended": "Recomendado"
       }
     },
     "pricing_2": {
