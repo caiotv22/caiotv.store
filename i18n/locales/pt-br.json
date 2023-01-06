@@ -44,20 +44,20 @@
       "option_1": "Planos de IPTV",
       "option_2": "Planos de P2P",
       "plans": {
-        "title-1": "Plano Mensal",
-        "title-2": "Plano Semestral",
-        "title-3": "Plano Anual",
-        "plan-1": {
+        "title_1": "Plano Mensal",
+        "title_2": "Plano Semestral",
+        "title_3": "Plano Anual",
+        "plan_1": {
           "price-1": "R$ 24,90",
           "price-2": "R$ 139,90",
           "price-3": "R$ 199,90"
         },
-        "plan-2": {
+        "plan_2": {
           "price-1": "R$ 34,90",
           "price-2": "R$ 199,90",
           "price-3": "R$ 299,90"
         },
-        "default-features": {
+        "default_features": {
           "feature_1": "Desconto incluso",
           "feature_2": "Qualidade 4K/FHD/HD/SD",
           "feature_3": "Guia de programação [EPG]",
@@ -66,7 +66,7 @@
           "feature_6": "Cortesia de filmes e séries",
           "feature_7": "Canais e serviços 24 horas"
         },
-        "custom-features": {
+        "custom_features": {
           "pricing-1": {
             "feature_1": "1 tela simultânea"
           },
