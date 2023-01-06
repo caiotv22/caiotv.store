@@ -44,7 +44,7 @@
       "option_1": "Planos de IPTV",
       "option_2": "Planos de P2P",
       "plans": {
-        "title_1": "Plano Mensall",
+        "title_1": "Plano Mensal",
         "title_2": "Plano Semestral",
         "title_3": "Plano Anual",
         "plan_1": {
@@ -59,23 +59,12 @@
         },
         "default_features": {
           "feature_1": "Desconto incluso"
-        },
-        "feature_2": "Qualidade 4K/FHD/HD/SD",
-        "feature_3": "Guia de programação [EPG]",
-        "feature_4": "Assistir de onde quiser",
-        "feature_5": "Rádios online",
-        "feature_6": "Cortesia de filmes e séries",
-        "feature_7": "Canais e serviços 24 horas"
-      },
-      "custom_features": {
-        "pricing_1": {
-          "feature_1": "1 tela simultânea"
-        },
-        "pricing_3": {
-          "feature_1": "2 telas simultâneas"
         }
       },
-      "button": "Assinar Agora"
+      "custom_features": {
+        "pricing_1": {},
+        "pricing_3": {}
+      }
     },
     "pricing_2": {
       "title": "Seja um revendedor",
