@@ -1,16 +1,33 @@
 import axios from 'axios';
+import { toast } from 'react-toastify';
 var base64 = require('base-64');
 var utf8 = require('utf8');
 
-const user = 'caiotv22/caiotv.store';
-const token = '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';
+const notifySuccess = (msg) => {
+  toast.success(msg, {
+    toastId: 'custom_id-yes',
+    position: 'bottom-right',
+    theme: 'colored',
+  });
+};
 
-export async function getGitHubInfo(sha) {
+const notifyError = (msg) => {
+  toast.error(msg, {
+    toastId: 'custom_id-yes',
+    position: 'bottom-right',
+    theme: 'colored',
+  });
+};
+
+export async function getGitHubInfo(sha, gitHubUserInfo) {
   const config = {
-    headers: { Authorization: `Bearer ${token}` },
+    headers: { Authorization: `Bearer ${gitHubUserInfo?.github_token}` },
   };
   try {
-    let { data } = await axios.get(`https://api.github.com/repos/${user}/contents/i18n/locales/pt-br.json`, config);
+    let { data } = await axios.get(
+      `https://api.github.com/repos/${gitHubUserInfo?.repository_route}/contents/i18n/locales/pt-br.json`,
+      config
+    );
     if (sha) {
       return data.sha;
     }
@@ -18,16 +35,16 @@ export async function getGitHubInfo(sha) {
     const text = utf8.decode(bytes);
     return text;
   } catch (error) {
-    console.log(error);
+    return notifyError('Serviço indisponível no momento.');
   }
 }
 
-export async function updateGitHubJson(value, auth, message) {
+export async function updateGitHubJson(value, auth, message, gitHubUserInfo) {
   const objToJson = JSON.stringify(value, null, 2);
   const bytes = utf8.encode(objToJson);
   const encoded = base64.encode(bytes);
   const config = {
-    headers: { Authorization: `Bearer ${token}` },
+    headers: { Authorization: `Bearer ${gitHubUserInfo?.github_token}` },
   };
   const body = JSON.stringify({
     message: message,
@@ -36,14 +53,14 @@ export async function updateGitHubJson(value, auth, message) {
   });
   try {
     let { data } = await axios.put(
-      `https://api.github.com/repos/${user}/contents/i18n/locales/pt-br.json`,
+      `https://api.github.com/repos/${gitHubUserInfo?.repository_route}/contents/i18n/locales/pt-br.json`,
       body,
       config
     );
-    alert('Alterado com sucesso!');
+    notifySuccess('Alterações salvas com sucesso!');
     return data;
   } catch (error) {
-    console.log(error);
+    return notifyError('Erro ao salvar, tente novamnete mais tarde.');
   }
 }
 

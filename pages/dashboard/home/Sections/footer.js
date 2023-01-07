@@ -1,11 +1,13 @@
 import { useState } from 'react';
-import { updateGitHubJson, getGitHubInfo } from '@/services/api';
+import { updateGitHubJson, getGitHubInfo } from '@/services/api/github';
 import Input from '@/dashboard/components/input';
 import SubmitButton from '@/dashboard/components/submitButton';
+import { useGitHubInfo } from '@/global/providers';
 
 export default function Footer({ data }) {
   const [getTitle, setGetTitle] = useState(null);
-  const dataToObj = JSON.parse(data);
+  const dataToObj = data ? JSON.parse(data) : '';
+  const { gitHubUserInfo } = useGitHubInfo();
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -28,8 +30,8 @@ export default function Footer({ data }) {
       }
     });
     try {
-      let auth = await getGitHubInfo('auth');
-      return updateGitHubJson(newObj, auth, 'header updated');
+      let auth = await getGitHubInfo('auth', gitHubUserInfo);
+      return updateGitHubJson(newObj, auth, 'header updated', gitHubUserInfo);
     } catch (error) {
       console.log('erro');
     }
@@ -45,7 +47,7 @@ export default function Footer({ data }) {
           setInput={setGetTitle}
           defaultVal={dataToObj?.translation?.footer?.copyright?.title}
           placeHolderVal='Digite aqui o nome no copyright'
-          maxLengthVal='30'
+          maxLengthVal='100'
         />
         <SubmitButton />
       </form>

@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import SubmitButton from '@/dashboard/components/submitButton';
-import { createGitHubFile, getGitHubInfo } from '@/services/api';
+import { createGitHubFile, getGitHubInfo } from '@/services/api/github';
+import { useGitHubInfo } from '@/global/providers';
 
 export default function Logo() {
+  const { gitHubUserInfo } = useGitHubInfo();
   const [img, setImg] = useState('/img/logo.png');
   const [imgFile, setImgFile] = useState('/img/logo.png');
 
@@ -16,7 +18,7 @@ export default function Logo() {
     e.preventDefault();
     if (img !== '/img/logo.png') {
       try {
-        let auth = await getGitHubInfo('auth');
+        let auth = await getGitHubInfo('auth', gitHubUserInfo);
         return createGitHubFile('public/img/logqwo.png', imgFile, auth, 'logo updated');
       } catch (error) {
         console.log('erro');

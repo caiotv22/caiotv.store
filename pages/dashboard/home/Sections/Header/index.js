@@ -1,18 +1,20 @@
 import { useState } from 'react';
 import Head from './head';
 import Logo from './logo';
-import { updateGitHubJson, getGitHubInfo } from '@/services/api';
+import { updateGitHubJson, getGitHubInfo } from '@/services/api/github';
 import Input from '@/dashboard/components/input';
 import SubmitButton from '@/dashboard/components/submitButton';
+import { useGitHubInfo } from '@/global/providers';
 
 export default function Header({ data }) {
+  const dataToObj = data ? JSON.parse(data) : '';
+  const { gitHubUserInfo } = useGitHubInfo();
   const [getInputMenu1, setGetInputMenu1] = useState(null);
   const [getInputMenu2, setGetInputMenu2] = useState(null);
   const [getInputMenu3, setGetInputMenu3] = useState(null);
   const [getInputMenu4, setGetInputMenu4] = useState(null);
   const [getInputMenu5, setGetInputMenu5] = useState(null);
   const [getInputLinkOption5, setGetInputLinkOption5] = useState(null);
-  const dataToObj = JSON.parse(data);
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -41,8 +43,8 @@ export default function Header({ data }) {
       }
     });
     try {
-      let auth = await getGitHubInfo('auth');
-      return updateGitHubJson(newObj, auth, 'header updated');
+      let auth = await getGitHubInfo('auth', gitHubUserInfo);
+      return updateGitHubJson(newObj, auth, 'header updated', gitHubUserInfo);
     } catch (error) {
       console.log('erro');
     }

@@ -4,6 +4,7 @@
     "paths": {
       "@/services/*": ["services/*"],
       "@/components/*": ["components/*"],
+      "@/middleware/*": ["middleware/*"],
       "@/i18n/*": ["i18n/*"],
       "@/dashboard/components/*": ["pages/dashboard/Components/*"],
       "@/global/providers*": ["global/providers/index.js"]

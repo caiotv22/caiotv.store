@@ -1,9 +1,12 @@
 import { useState } from 'react';
-import { updateGitHubJson, getGitHubInfo } from '@/services/api';
+import { updateGitHubJson, getGitHubInfo } from '@/services/api/github';
 import Input from '@/dashboard/components/input';
 import SubmitButton from '@/dashboard/components/submitButton';
+import { useGitHubInfo } from '@/global/providers';
 
 export default function Features({ data }) {
+  const dataToObj = data ? JSON.parse(data) : '';
+  const { gitHubUserInfo } = useGitHubInfo();
   const [getTitle, setGetTitle] = useState(null);
   const [getFeature1, setFeature1] = useState(null);
   const [getFeature2, setFeature2] = useState(null);
@@ -13,7 +16,6 @@ export default function Features({ data }) {
   const [getFeature6, setFeature6] = useState(null);
   const [getButton, setButton] = useState(null);
   const [getButtonLink, setButtonLink] = useState(null);
-  const dataToObj = JSON.parse(data);
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -48,8 +50,8 @@ export default function Features({ data }) {
       }
     });
     try {
-      let auth = await getGitHubInfo('auth');
-      return updateGitHubJson(newObj, auth, 'header updated');
+      let auth = await getGitHubInfo('auth', gitHubUserInfo);
+      return updateGitHubJson(newObj, auth, 'header updated', gitHubUserInfo);
     } catch (error) {
       console.log('erro');
     }

@@ -1,15 +1,17 @@
 import { useState } from 'react';
-import { updateGitHubJson, getGitHubInfo } from '@/services/api';
+import { updateGitHubJson, getGitHubInfo } from '@/services/api/github';
 import Input from '@/dashboard/components/input';
 import SubmitButton from '@/dashboard/components/submitButton';
+import { useGitHubInfo } from '@/global/providers';
 
 export default function Banner({ data }) {
+  const dataToObj = data ? JSON.parse(data) : '';
+  const { gitHubUserInfo } = useGitHubInfo();
   const [getInput1, setGetInput1] = useState(null);
   const [getInput2, setGetInput2] = useState(null);
   const [getInput3, setGetInput3] = useState(null);
   const [getInput4, setGetInput4] = useState(null);
   const [getInput5, setGetInput5] = useState(null);
-  const dataToObj = JSON.parse(data);
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -34,8 +36,8 @@ export default function Banner({ data }) {
       }
     });
     try {
-      let auth = await getGitHubInfo('auth');
-      return updateGitHubJson(newObj, auth, 'header updated');
+      let auth = await getGitHubInfo('auth', gitHubUserInfo);
+      return updateGitHubJson(newObj, auth, 'header updated', gitHubUserInfo);
     } catch (error) {
       console.log('erro');
     }
