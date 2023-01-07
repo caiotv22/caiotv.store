@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 
-export default function Pricing2() {
+export default function ResalePricing() {
   const { t } = useTranslation();
   const defaultCheckedIcon = { color: '#0C7CE3', marginRight: '5px', fontSize: '1.2em' };
   return (

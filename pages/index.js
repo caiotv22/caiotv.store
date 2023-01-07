@@ -6,7 +6,7 @@ import HeroSection from '../components/HeroSection';
 import Description from '../components/Description';
 import HowItWorks from '../components/HowItWorks';
 import Pricing from '../components/Pricing';
-import Pricing2 from '../components/pricing2';
+import Pricing2 from '../components/ResalePricing';
 import Faq from '../components/Faq';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
