@@ -44,34 +44,34 @@
       "option_1": "Planos de IPTV",
       "option_2": "Planos de P2P",
       "plans": {
-        "title_1": "Plano Mensal",
-        "title_2": "Plano Semestral",
-        "title_3": "Plano Anual",
+        "title_1": "Plano / Básico / Canais / Mês",
+        "title_2": "Plano / Tudo Liberado / Mês",
+        "title_3": "Plano / Filmes e Séries / Mês",
         "plan_1": {
-          "price_1": "R$ 24,90",
-          "price_2": "R$ 139,90",
-          "price_3": "R$ 199,90"
+          "price_1": "R$ 19,90",
+          "price_2": "R$ 29,90",
+          "price_3": "R$ 15,00"
         },
         "plan_2": {
           "price_1": "R$ 34,90",
-          "price_2": "R$ 199,90",
-          "price_3": "R$ 299,90"
+          "price_2": "R$ 34,90",
+          "price_3": "R$ 34,90"
         },
         "default_features": {
-          "feature_1": "Desconto incluso",
+          "feature_1": "Filmes e Séries Disponíveis",
           "feature_2": "Qualidade 4K/FHD/HD/SD",
           "feature_3": "Guia de programação [EPG]",
           "feature_4": "Assistir de onde quiser",
-          "feature_5": "Rádios online",
+          "feature_5": "Youtube P. / Spotify P. Grátis",
           "feature_6": "Cortesia de filmes e séries",
           "feature_7": "Canais e serviços 24 horas"
         },
         "custom_features": {
           "pricing_1": {
-            "feature_1": "1 tela simultânea"
+            "feature_1": "Apenas Canais"
           },
           "pricing_3": {
-            "feature_1": "2 telas simultâneas"
+            "feature_1": "Canais / Filmes e Séries"
           }
         },
         "button": "Assinar Agora",
