@@ -50,19 +50,19 @@
         "plan_1": {
           "price_1": "R$ 24,90",
           "price_2": "R$ 139,90",
-          "price_3": "R$ 298,80"
+          "price_3": "R$ 199,90"
         },
         "plan_2": {
           "price_1": "R$ 34,90",
-          "price_2": "R$ 34,90",
-          "price_3": "R$ 34,90"
+          "price_2": "R$ 199,90",
+          "price_3": "R$ 299,90"
         },
         "default_features": {
           "feature_1": "Desconto incluso",
           "feature_2": "Qualidade 4K/FHD/HD/SD",
           "feature_3": "Guia de programação [EPG]",
           "feature_4": "Assistir de onde quiser",
-          "feature_5": "Youtube P. / Spotify P.",
+          "feature_5": "Rádios online",
           "feature_6": "Cortesia de filmes e séries",
           "feature_7": "Canais e serviços 24 horas"
         },
