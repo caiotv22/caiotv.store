@@ -35,7 +35,7 @@ export default function LoginPage() {
       <div className='flex flex-col text-lg place-items-center place-content-center'>
         <span className='px-2 my-8 opacity-50'>Página de login - Painel de gerencimanto do revendedor</span>
         <div className='w-3/4 xl:w-2/6 mx-40 bg-defaultBlack2 p-8 br-4 rounded-2xl'>
-          <div className='flex place-content-center	pb-2'>
+          <div className='flex place-content-center	pb-3'>
             <Image className='relative top-0.5' src='/img/logo.png' alt={t('head.title')} width={180} height={100} />
           </div>
           <form className='flex flex-col mt-4 py-2' onSubmit={handleSubmit}>
