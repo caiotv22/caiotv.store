@@ -44,9 +44,9 @@
       "option_1": "Planos de IPTV",
       "option_2": "Planos de P2P",
       "plans": {
-        "title_1": "Plano / Básico / Canais / Mês",
-        "title_2": "Plano / Tudo Liberado / Mês",
-        "title_3": "Plano / Filmes e Séries / Mês",
+        "title_1": "P2P - Plano Mensal",
+        "title_2": "P2P - Plano Semestral",
+        "title_3": "P2P - Plano Anual",
         "plan_1": {
           "price_1": "R$ 19,90",
           "price_2": "R$ 29,90",
@@ -54,8 +54,8 @@
         },
         "plan_2": {
           "price_1": "R$ 34,90",
-          "price_2": "R$ 34,90",
-          "price_3": "R$ 34,90"
+          "price_2": "R$ 209,40",
+          "price_3": "R$ 418,80"
         },
         "default_features": {
           "feature_1": "Filmes e Séries Disponíveis",
@@ -68,10 +68,10 @@
         },
         "custom_features": {
           "pricing_1": {
-            "feature_1": "Apenas Canais"
+            "feature_1": "1 Tela Simultânea"
           },
           "pricing_3": {
-            "feature_1": "Canais / Filmes e Séries"
+            "feature_1": "1 Tela Simultânea"
           }
         },
         "button": "Assinar Agora",
