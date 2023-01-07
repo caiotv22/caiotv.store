@@ -32,9 +32,9 @@ export default function LoginPage() {
         <meta name='description' content={t('head.description')} />
         <link rel='icon' href='img/favicon.ico' />
       </Head>
-      <div className='hidden xl:flex flex-col text-lg place-items-center place-content-center'>
+      <div className='flex flex-col text-lg place-items-center place-content-center'>
         <span className='px-2 my-8 opacity-50'>Página de login - Painel de gerencimanto do revendedor</span>
-        <div className='w-2/6 mx-40 bg-defaultBlack2 p-8 br-4 rounded-2xl'>
+        <div className='w-3/4 xl:w-2/6 mx-40 bg-defaultBlack2 p-8 br-4 rounded-2xl'>
           <div className='flex place-content-center	pb-2'>
             <Image className='relative top-0.5' src='/img/logo.png' alt={t('head.title')} width={180} height={100} />
           </div>
