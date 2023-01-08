@@ -53,9 +53,9 @@
           "price_3": "R$ 298,80"
         },
         "plan_2": {
-          "price_1": "R$ 234,90",
-          "price_2": "R$ 364,90",
-          "price_3": "R$ 34,90"
+          "price_1": "R$ 34,90",
+          "price_2": "R$ 209,40",
+          "price_3": "R$ 318,80"
         },
         "default_features": {
           "feature_1": "Filmes e Séries Disponíveis",
