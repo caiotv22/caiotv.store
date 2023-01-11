@@ -44,9 +44,9 @@
       "option_1": "Planos de IPTV",
       "option_2": "Planos de P2P",
       "plans": {
-        "title_1": "IPTV -Plano Mensal",
-        "title_2": "IPTV - Plano Semestral",
-        "title_3": "IPTV - Plano Anual",
+        "title_1": "Plano Mensal",
+        "title_2": "Plano Semestral",
+        "title_3": "Plano Anual",
         "plan_1": {
           "price_1": "R$ 24,90",
           "price_2": "R$ 149,40",
