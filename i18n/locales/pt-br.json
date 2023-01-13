@@ -54,11 +54,11 @@
         },
         "plan_2": {
           "price_1": "R$ 34,90",
-          "price_2": "R$ 209,40",
-          "price_3": "R$ 418,80"
+          "price_2": "R$ 34,90",
+          "price_3": "R$ 34,90"
         },
         "default_features": {
-          "feature_1": "Filmes e Séries Disponíveis",
+          "feature_1": "Descontos",
           "feature_2": "Qualidade 4K/FHD/HD/SD",
           "feature_3": "Guia de programação [EPG]",
           "feature_4": "Assistir de onde quiser",
