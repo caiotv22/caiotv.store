@@ -45,7 +45,7 @@
       "option_2": "Planos de P2P",
       "plans": {
         "title_1": "Plano Mensal",
-        "title_2": "Planos Trimestral",
+        "title_2": "Plano Semestral",
         "title_3": "Plano Anual",
         "plan_1": {
           "price_1": "R$ 24,90",
@@ -53,16 +53,16 @@
           "price_3": "R$ 298,80"
         },
         "plan_2": {
-          "price_1": "R$ 29,90",
-          "price_2": "R$ 79,90",
-          "price_3": "R$ 287,04"
+          "price_1": "R$ 34,90",
+          "price_2": "R$ 209,40",
+          "price_3": "R$ 418,80"
         },
         "default_features": {
           "feature_1": "Descontos",
           "feature_2": "Qualidade 4K/FHD/HD/SD",
           "feature_3": "Guia de programação [EPG]",
           "feature_4": "Assistir de onde quiser",
-          "feature_5": "Teste grátis de até 2 dias !",
+          "feature_5": "Youtube P. / Spotify P. Grátis",
           "feature_6": "Programação Adultos [Opcional]",
           "feature_7": "Canais e serviços 24 horas"
         },
@@ -79,21 +79,10 @@
       }
     },
     "pricing_2": {
-      "title": "Seja um revendedor",
-      "description": "Sendo o nosso revendedor, você só terá vantagens! Você possuirá um painel totalmente exclusivo e de fácil uso. Você poderá adqurir créditos, na qual cada crédito é equivalente a 1 mês de IPTV e também gerenciar os usuários de IPTV na qual você possuir.",
+      "title": "Seja um revendedor / PÓS PAGO ",
+      "description": "Sendo o nosso revendedor, você só terá vantagens! Você possuirá um painel totalmente exclusivo e de fácil uso. Você terá direito a créditos ilimitados, pagando apenas R$7,50 por cliente ativo ! Todos os dias 2 de cada mês ",
       "know_more": "Clique aqui para saber mais.",
-      "know_more_link": "https://central.caioservices.tech/index.php?rp=/knowledgebase/4/",
-      "description_2": "Algumas vantagens:",
-      "features": {
-        "feature_1": "Painel de Controle",
-        "feature_2": "10 créditos já inclusos",
-        "feature_3": "Liberação de testes ilimitados",
-        "feature_4": "Não precisa ter CNPJ",
-        "feature_5": "Vídeos tutoriais de como utilizar",
-        "feature_6": "Sem mensalidade, compre o crédito apenas 1 vez!"
-      },
-      "button": "Assinar Agora",
-      "button_link": "https://central.caioservices.tech/cart.php?a=add&pid=7"
+      "know_more_link": "https://wa.me/message/AEICR5LGWYJZM1"
     },
     "faq": {
       "title": "Perguntas frequentes",
