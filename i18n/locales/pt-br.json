@@ -86,14 +86,14 @@
       "description_2": "Algumas vantagens:",
       "features": {
         "feature_1": "Painel de Controle",
-        "feature_2": "Créditos Ilimitados",
+        "feature_2": "10 créditos já inclusos",
         "feature_3": "Liberação de testes ilimitados",
         "feature_4": "Não precisa ter CNPJ",
         "feature_5": "Vídeos tutoriais de como utilizar",
-        "feature_6": "Pague apenas os clientes ativos !"
+        "feature_6": "Sem mensalidade, compre o crédito apenas 1 vez!"
       },
       "button": "Assinar Agora",
-      "button_link": "https://wa.me/message/AEICR5LGWYJZM1"
+      "button_link": "https://central.caioservices.tech/cart.php?a=add&pid=7"
     },
     "faq": {
       "title": "Perguntas frequentes",
@@ -114,8 +114,8 @@
     },
     "contact": {
       "title": "Dúvidas? Entre em contato com a gente pelo WhatsApp",
-      "number_whatsapp": "11 94934-2573",
-      "number_whatsapp_link": "https://wa.me/message/3KMEBBKU"
+      "number_whatsapp": "11 95936-2410",
+      "number_whatsapp_link": "https://wa.me/message/AEICR5LGWYJZM1"
     },
     "footer": {
       "copyright": {
