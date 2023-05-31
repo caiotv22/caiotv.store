@@ -79,10 +79,21 @@
       }
     },
     "pricing_2": {
-      "title": "Seja um revendedor / PÓS PAGO ",
-      "description": "Sendo o nosso revendedor, você só terá vantagens! Você possuirá um painel totalmente exclusivo e de fácil uso. Você terá direito a créditos ilimitados, pagando apenas R$7,50 por cliente ativo ! Todos os dias 2 de cada mês, cobramos uma taxa fixa pela manutenção do painel, que é o valor de R$20 apenas ! Tá com dúvidas ? Chama em nosso WhatsApp ! ",
+      "title": "Seja um revendedor",
+      "description": "Sendo o nosso revendedor, você só terá vantagens! Você possuirá um painel totalmente exclusivo e de fácil uso. Você poderá adqurir créditos, na qual cada crédito é equivalente a 1 mês de IPTV e também gerenciar os usuários de IPTV na qual você possuir.",
       "know_more": "Clique aqui para saber mais.",
-      "know_more_link": "https://wa.me/message/AEICR5LGWYJZM1"
+      "know_more_link": "https://central.caioservices.tech/index.php?rp=/knowledgebase/4/",
+      "description_2": "Algumas vantagens:",
+      "features": {
+        "feature_1": "Painel de Controle",
+        "feature_2": "Créditos Ilimitados",
+        "feature_3": "Liberação de testes ilimitados",
+        "feature_4": "Não precisa ter CNPJ",
+        "feature_5": "Vídeos tutoriais de como utilizar",
+        "feature_6": "Pague apenas os clientes ativos !"
+      },
+      "button": "Assinar Agora",
+      "button_link": "https://wa.me/message/AEICR5LGWYJZM1"
     },
     "faq": {
       "title": "Perguntas frequentes",
