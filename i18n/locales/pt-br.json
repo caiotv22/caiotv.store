@@ -54,8 +54,8 @@
         },
         "plan_2": {
           "price_1": "R$ 29,90",
-          "price_2": "R$ 29,90",
-          "price_3": "R$ 29,90"
+          "price_2": "R$ 79,90",
+          "price_3": "R$ 287,40"
         },
         "default_features": {
           "feature_1": "Descontos",
