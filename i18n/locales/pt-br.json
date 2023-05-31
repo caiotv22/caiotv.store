@@ -54,15 +54,15 @@
         },
         "plan_2": {
           "price_1": "R$ 29,90",
-          "price_2": "R$ 29,90",
-          "price_3": "R$ 29,90"
+          "price_2": "R$ 79,90",
+          "price_3": "R$ 287,40"
         },
         "default_features": {
           "feature_1": "Descontos",
           "feature_2": "Qualidade 4K/FHD/HD/SD",
           "feature_3": "Guia de programação [EPG]",
           "feature_4": "Assistir de onde quiser",
-          "feature_5": "Duração de teste: 4 horas",
+          "feature_5": "Duração de teste: 2 dias",
           "feature_6": "Programação Adultos [Opcional]",
           "feature_7": "Canais e serviços 24 horas"
         },
