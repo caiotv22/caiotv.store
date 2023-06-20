@@ -73,7 +73,7 @@ export default function Features({ data }) {
           id='feature_1'
           labelTitle={'1º Característica'}
           setInput={setFeature1}
-          defaultVal={dataToObj?.translation?.pricing_2?.features.feature_1}
+          defaultVal={dataToObj?.translation?.pricing_2?.features?.feature_1}
           placeHolderVal='Digite a característica'
           maxLengthVal='50'
         />
@@ -81,7 +81,7 @@ export default function Features({ data }) {
           id='feature_2'
           labelTitle={'2º Característica'}
           setInput={setFeature2}
-          defaultVal={dataToObj?.translation?.pricing_2?.features.feature_2}
+          defaultVal={dataToObj?.translation?.pricing_2?.features?.feature_2}
           placeHolderVal='Digite a característica'
           maxLengthVal='50'
         />
@@ -89,7 +89,7 @@ export default function Features({ data }) {
           id='feature_3'
           labelTitle={'3º Característica'}
           setInput={setFeature3}
-          defaultVal={dataToObj?.translation?.pricing_2?.features.feature_3}
+          defaultVal={dataToObj?.translation?.pricing_2?.features?.feature_3}
           placeHolderVal='Digite a característica'
           maxLengthVal='50'
         />
@@ -97,7 +97,7 @@ export default function Features({ data }) {
           id='feature_4'
           labelTitle={'4º Característica'}
           setInput={setFeature4}
-          defaultVal={dataToObj?.translation?.pricing_2?.features.feature_4}
+          defaultVal={dataToObj?.translation?.pricing_2?.features?.feature_4}
           placeHolderVal='Digite a característica'
           maxLengthVal='50'
         />
@@ -105,7 +105,7 @@ export default function Features({ data }) {
           id='feature_5'
           labelTitle={'5º Característica'}
           setInput={setFeature5}
-          defaultVal={dataToObj?.translation?.pricing_2?.features.feature_5}
+          defaultVal={dataToObj?.translation?.pricing_2?.features?.feature_5}
           placeHolderVal='Digite a característica'
           maxLengthVal='50'
         />
@@ -113,7 +113,7 @@ export default function Features({ data }) {
           id='feature_6'
           labelTitle={'6º Característica'}
           setInput={setFeature6}
-          defaultVal={dataToObj?.translation?.pricing_2?.features.feature_6}
+          defaultVal={dataToObj?.translation?.pricing_2?.features?.feature_6}
           placeHolderVal='Digite a característica'
           maxLengthVal='50'
         />

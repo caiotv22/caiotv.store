@@ -70,7 +70,7 @@ export default function DashBoard() {
     header: <Header data={gitHubInfo} />,
     banner: <Banner data={gitHubInfo} />,
     plans: <Plans data={gitHubInfo} />,
-    plansp2p: <Plans2p data={gitHubInfo} />,
+    plansOTT: <Plans2p data={gitHubInfo} />,
     plans2: <Plans2 data={gitHubInfo} />,
     contact: <Contact data={gitHubInfo} />,
     footer: <Footer data={gitHubInfo} />,

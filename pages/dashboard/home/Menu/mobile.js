@@ -43,12 +43,12 @@ export default function MobileMenu({ open, handleOpen }) {
               Planos
             </li>
             <li
-              onClick={() => handleOpen('plansp2p')}
-              style={open === 'plansp2p' ? { color: 'rgb(112 188 255)' } : { color: 'inherit' }}
+              onClick={() => handleOpen('plansOTT')}
+              style={open === 'plansOTT' ? { color: 'rgb(112 188 255)' } : { color: 'inherit' }}
               className='px-6 cursor-pointer hover:opacity-80'
             >
               {' '}
-              Planos de P2P
+              Planos de OTT
             </li>
             <li
               onClick={() => handleOpen('plans2')}

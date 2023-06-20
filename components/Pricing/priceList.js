@@ -17,8 +17,8 @@ export default function PriceList({ inputChecked }) {
     feature1: t('pricing.plans.custom_features.pricing_3.feature_1'),
   };
 
-  const p2pData = {
-    title: 'P2P',
+  const OTTData = {
+    title: 'OTT+',
     price1: t('pricing.plans.plan_2.price_1'),
     price2: t('pricing.plans.plan_2.price_2'),
     price3: t('pricing.plans.plan_2.price_3'),
@@ -30,9 +30,9 @@ export default function PriceList({ inputChecked }) {
       <div className='w-72 sm:w-96 flex flex-col border-defaultGreen border-4 rounded-2xl'>
         <div className='py-6 bg-gradient-to-b from-defaultGreen to-transparent rounded-t-lg'>
           <h1 className='text-3xl font-semibold'>
-            {inputChecked ? p2pData.title : iptvData.title} - {t('pricing.plans.title_1')}
+            {inputChecked ? OTTData.title : iptvData.title} - {t('pricing.plans.title_1')}
           </h1>
-          <h2 className='text-3xl font-semibold mt-4'>{inputChecked ? p2pData.price1 : iptvData.price1}</h2>
+          <h2 className='text-3xl font-semibold mt-4'>{inputChecked ? OTTData.price1 : iptvData.price1}</h2>
         </div>
         <ul className='space-y-4 py-6 pl-8'>
           <li className='flex align-items: center;'>
@@ -88,9 +88,9 @@ export default function PriceList({ inputChecked }) {
             {t('pricing.plans.recommended')}
           </span>
           <h1 className='text-3xl font-semibold'>
-            {inputChecked ? p2pData.title : iptvData.title} - {t('pricing.plans.title_2')}
+            {inputChecked ? OTTData.title : iptvData.title} - {t('pricing.plans.title_2')}
           </h1>
-          <h2 className='text-3xl font-semibold mt-4'>{inputChecked ? p2pData.price2 : iptvData.price2}</h2>
+          <h2 className='text-3xl font-semibold mt-4'>{inputChecked ? OTTData.price2 : iptvData.price2}</h2>
         </div>
         <ul className='space-y-4 py-6 pl-8'>
           <li className='flex align-items: center;'>
@@ -143,9 +143,9 @@ export default function PriceList({ inputChecked }) {
       <div className='w-72 sm:w-96 flex flex-col border-defaultGreen border-4 rounded-2xl'>
         <div className='py-6 bg-gradient-to-b from-defaultGreen to-transparent rounded-t-lg'>
           <h1 className='text-3xl font-semibold'>
-            {inputChecked ? p2pData.title : iptvData.title} - {t('pricing.plans.title_3')}
+            {inputChecked ? OTTData.title : iptvData.title} - {t('pricing.plans.title_3')}
           </h1>
-          <h2 className='text-3xl font-semibold mt-4'>{inputChecked ? p2pData.price3 : iptvData.price3}</h2>
+          <h2 className='text-3xl font-semibold mt-4'>{inputChecked ? OTTData.price3 : iptvData.price3}</h2>
         </div>
         <ul className='space-y-4 py-6 pl-8'>
           <li className='flex align-items: center;'>

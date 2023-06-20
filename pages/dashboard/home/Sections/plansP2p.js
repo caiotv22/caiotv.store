@@ -4,7 +4,7 @@ import Input from '@/dashboard/components/input';
 import SubmitButton from '@/dashboard/components/submitButton';
 import { useGitHubInfo } from '@/global/providers';
 
-export default function PlansP2p({ data }) {
+export default function PlansOTT({ data }) {
   const dataToObj = data ? JSON.parse(data) : '';
   const { gitHubUserInfo } = useGitHubInfo();
   const [getTitlePlan, setGetTitlePlan] = useState(null);
@@ -31,7 +31,7 @@ export default function PlansP2p({ data }) {
   async function handleSubmit(e) {
     e.preventDefault();
     let newObj = {};
-    const plansP2p = {
+    const plansOTT = {
       translation: {
         pricing: {
           title: dataToObj?.translation?.pricing?.title,
@@ -95,11 +95,11 @@ export default function PlansP2p({ data }) {
       },
     };
 
-    Object.keys(plansP2p).forEach((key) => {
-      if (plansP2p[key] instanceof Object) {
-        newObj[key] = Object.assign({}, dataToObj[key], plansP2p[key]);
+    Object.keys(plansOTT).forEach((key) => {
+      if (plansOTT[key] instanceof Object) {
+        newObj[key] = Object.assign({}, dataToObj[key], plansOTT[key]);
       } else {
-        newObj[key] = plansP2p[key];
+        newObj[key] = plansOTT[key];
       }
     });
     try {
@@ -112,7 +112,7 @@ export default function PlansP2p({ data }) {
 
   return (
     <>
-      <h1 className='mb-4'>Planos de P2P</h1>
+      <h1 className='mb-4'>Planos de OTT</h1>
       <form onSubmit={handleSubmit}>
         <Input
           id='title_1'
