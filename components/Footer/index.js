@@ -11,7 +11,7 @@ export default function Footer() {
         <div className='flex text-base py-4 flex-col lg:flex-row place-items-center'>
           <div className='flex flex-grow place-items-center'>
             <span className='px-2'>
-              © {year} <span className='font-bold'>{t('footer.copyright.name')}</span>.{' '}
+              © {year} <span className='font-bold'>{t('footer.copyright.title')}</span>.{' '}
               {t('footer.copyright.all-rights-reserved')}
             </span>
           </div>
