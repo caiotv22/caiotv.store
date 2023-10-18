@@ -11,7 +11,7 @@
         "option_3": "Perguntas frequentes",
         "option_4": "Seja um revendedor / PÓS PAGO ",
         "option_5": "Grupo no WhatsApp",
-        "button_link_option_5": "https://whatsapp.com/channel/0029VaBW9XI47XeKfFhQ5f0a"
+        "button_link_option_5": "https://chat.whatsapp.com/DM5Sexl2I7QGjyqiB4tiFi"
       }
     },
     "hero_section": {
@@ -48,14 +48,14 @@
         "title_2": "Plano Trimestral",
         "title_3": "Plano Anual",
         "plan_1": {
-          "price_1": "R$ 24,90",
+          "price_1": "R$ 29,90",
           "price_2": "R$ 149,40",
           "price_3": "R$ 298,80"
         },
         "plan_2": {
           "price_1": "R$ 39,90",
-          "price_2": "R$ 119,70",
-          "price_3": "R$ 399,80"
+          "price_2": "R$ 39,90",
+          "price_3": "R$ 39,90"
         },
         "default_features": {
           "feature_1": "Descontos",
