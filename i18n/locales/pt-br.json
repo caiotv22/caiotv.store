@@ -42,7 +42,7 @@
       "description": "Nossos planos foram projetados para atender e possibilitar a todos de desfrutar essa revolução.",
       "description_2": "Fazemos questão de prezar pela sofisticação em oferecer preços acessíveis com uma qualidade superior em todos os nossos serviços.",
       "option_1": "Planos de IPTV",
-      "option_2": "Planos de OTT+",
+      "option_2": "Planos de P2P",
       "plans": {
         "title_1": "Plano Mensal",
         "title_2": "Plano Trimestral",
@@ -54,8 +54,8 @@
         },
         "plan_2": {
           "price_1": "R$ 39,90",
-          "price_2": "R$ 39,90",
-          "price_3": "R$ 39,90"
+          "price_2": "R$ 150,00",
+          "price_3": "R$ 280,00"
         },
         "default_features": {
           "feature_1": "Descontos",
