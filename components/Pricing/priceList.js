@@ -18,7 +18,7 @@ export default function PriceList({ inputChecked }) {
   };
 
   const OTTData = {
-    title: 'OTT+',
+    title: 'P2P',
     price1: t('pricing.plans.plan_2.price_1'),
     price2: t('pricing.plans.plan_2.price_2'),
     price3: t('pricing.plans.plan_2.price_3'),
@@ -73,8 +73,8 @@ export default function PriceList({ inputChecked }) {
         <Link
           href={
             inputChecked
-              ? 'https://central.caioservices.tech/cart.php?a=add&pid=2&carttpl=standard_cart'
-              : 'https://central.caioservices.tech/cart.php?a=add&pid=1&carttpl=standard_cart'
+              ? 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
+              : 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
           }
         >
           <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
@@ -131,8 +131,8 @@ export default function PriceList({ inputChecked }) {
         <Link
           href={
             inputChecked
-              ? 'https://central.caioservices.tech/cart.php?a=add&pid=4&carttpl=standard_cart'
-              : 'https://central.caioservices.tech/cart.php?a=add&pid=3&carttpl=standard_cart'
+              ? 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
+              : 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
           }
         >
           <button type='button' className='bg-defaultBlue w-4/5 rounded-md py-3 px-5 mb-6 font-semibold'>
@@ -188,8 +188,8 @@ export default function PriceList({ inputChecked }) {
         <Link
           href={
             inputChecked
-              ? 'https://central.caioservices.tech/cart.php?a=add&pid=6&carttpl=standard_cart'
-              : 'https://central.caioservices.tech/cart.php?a=add&pid=5&carttpl=standard_cart'
+              ? 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
+              : 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
           }
         >
           <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>

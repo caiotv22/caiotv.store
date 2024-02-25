@@ -2,7 +2,7 @@
   "translation": {
     "head": {
       "title": "Caio Services - IPTV Sem Quedas e Sem Travamentos",
-      "description": "IPTV e OTT+ com qualidade superior, venha conhecer as nossas ofertas."
+      "description": "IPTV e P2P com qualidade superior, venha conhecer as nossas ofertas."
     },
     "header": {
       "nav": {
@@ -28,9 +28,9 @@
     "how-it-works": {
       "title": "O que é e como funciona?",
       "description-1": "Utilizamos um método de transmissão chamado IPTV. O IPTV ou TVIP é um método de transmissão de sinais televisivo através de redes IP. Diferentemente dos sistemas tradicionais televisivos, o IPTV oferece a capacidade de transmitir a mídia de origem continuamente. Embora o IPTV use o protocolo da Internet, não está limitada à televisão transmitida pela internet.",
-      "description_2": "Também trabalhamos com o OTT+, na qual utiliza uma arquitetura diferente da IPTV, sendo indicada para conexões com a internet mais lenta.",
+      "description_2": "Também trabalhamos com o P2P, na qual utiliza uma arquitetura diferente da IPTV, sendo indicada para conexões com a internet mais lenta.",
       "description-3": "Veja como é simples:",
-      "step-by-step-1": "1. Escolha e assine um de nossos planos disponíveis de IPTV ou OTT+.",
+      "step-by-step-1": "1. Escolha e assine um de nossos planos disponíveis de IPTV ou P2P.",
       "step-by-step-2": "2. Receba as informações do seu serviço e as instruções de como instalar e utilizar.",
       "step-by-step-3": "3. Comece a desfrutar de todo o nosso conteúdo, sem restrições!",
       "step-by-step-img-alt-1": "Como funciona - passo 1",
@@ -45,7 +45,7 @@
       "option_2": "Planos de P2P",
       "plans": {
         "title_1": "Plano Mensal",
-        "title_2": "Plano Trimestral",
+        "title_2": "Plano Semestral",
         "title_3": "Plano Anual",
         "plan_1": {
           "price_1": "R$ 29,90",
@@ -54,8 +54,8 @@
         },
         "plan_2": {
           "price_1": "R$ 39,90",
-          "price_2": "R$ 150,00",
-          "price_3": "R$ 280,00"
+          "price_2": "R$ 250,00",
+          "price_3": "R$ 350,00"
         },
         "default_features": {
           "feature_1": "Descontos",

@@ -39,7 +39,7 @@ export default function DesktopMenu({ open, handleOpen }) {
               className='px-6 cursor-pointer hover:opacity-80'
             >
               {' '}
-              Planos de OTT+
+              Planos de P2P
             </li>
             <li
               onClick={() => handleOpen('plans2')}
