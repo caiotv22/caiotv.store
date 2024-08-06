@@ -73,8 +73,8 @@ export default function PriceList({ inputChecked }) {
         <Link
           href={
             inputChecked
-              ? 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
-              : 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
+              ? 'https://bit.ly/suporte-caioservices'
+              : 'https://bit.ly/suporte-caioservices'
           }
         >
           <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
@@ -131,8 +131,8 @@ export default function PriceList({ inputChecked }) {
         <Link
           href={
             inputChecked
-              ? 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
-              : 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
+              ? 'https://bit.ly/suporte-caioservices'
+              : 'https://bit.ly/suporte-caioservices'
           }
         >
           <button type='button' className='bg-defaultBlue w-4/5 rounded-md py-3 px-5 mb-6 font-semibold'>
@@ -188,8 +188,8 @@ export default function PriceList({ inputChecked }) {
         <Link
           href={
             inputChecked
-              ? 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
-              : 'https://api.whatsapp.com/message/AEICR5LGWYJZM1?autoload=1&app_absent=0'
+              ? 'https://bit.ly/suporte-caioservices'
+              : 'https://bit.ly/suporte-caioservices'
           }
         >
           <button type='button' className='bg-defaultGreen w-4/5 rounded-md py-3 px-5 mb-6'>
